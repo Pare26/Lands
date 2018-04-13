@@ -20,5 +20,11 @@
 
         [JsonIgnore]
         public virtual ICollection<GroupTeam> GroupTeams { get; set; }
+
+        [JsonIgnore]
+        public virtual ICollection<Match> Locals { get; set; }
+
+        [JsonIgnore]
+        public virtual ICollection<Match> Visitors { get; set; }
     }
 }

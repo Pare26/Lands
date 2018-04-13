@@ -194,6 +194,7 @@
     <Compile Include="Controllers\GroupTeamsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\StatusMatchesController.cs" />
     <Compile Include="Controllers\TeamsController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Controllers\UserTypesController.cs" />
@@ -297,6 +298,12 @@
     <Content Include="Views\GroupTeams\Details.cshtml" />
     <Content Include="Views\GroupTeams\Edit.cshtml" />
     <Content Include="Views\GroupTeams\Index.cshtml" />
+    <Content Include="Views\Groups\AddTeam.cshtml" />
+    <Content Include="Views\StatusMatches\Create.cshtml" />
+    <Content Include="Views\StatusMatches\Delete.cshtml" />
+    <Content Include="Views\StatusMatches\Details.cshtml" />
+    <Content Include="Views\StatusMatches\Edit.cshtml" />
+    <Content Include="Views\StatusMatches\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
